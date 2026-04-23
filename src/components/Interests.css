@@ -1,0 +1,37 @@
+.interest-row {
+    display: flex;
+    color: white;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+
+}
+
+.interest-card {
+    flex: 1;
+    min-width: 180px;
+    background: #252840;;
+    border: 1px solid #3a3f6e;
+    padding: 1.5rem 1.2rem;
+    text-align: center;
+}
+
+.interest-icon {
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.interest-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.78rem;
+    color: #fff;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.interest-sub {
+    font-size: 0.68rem;
+    color: #717cb4;
+    line-height: 1.6;
+}

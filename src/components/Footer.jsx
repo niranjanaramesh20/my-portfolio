@@ -1,8 +1,11 @@
+import  "./Footer.css"
+
 function Footer() {
   return (
-    <footer>
-      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-    </footer>
+    <section className="footer">
+        <span>Code . learn . repeat</span>
+        <span>&copy; 2026 · NIRANJANA RAMESH</span>
+    </section>
   );
 }
 

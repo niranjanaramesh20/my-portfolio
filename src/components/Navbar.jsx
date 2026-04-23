@@ -2,18 +2,18 @@ import "./Navbar.css"
 
 function Navbar() {
   return (
-  
-      <nav className="navbar">
-        <h3 className="logo">Portfolio</h3>
-        <div className="nav-links">
-          <a href="#home">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#projects">PROJECTS</a>
-          <a href="#contact">CONTACT</a>
-        </div>
-        <h3>RESUME</h3>
+    <main className="navbar">
+      <div className="logo">
+      <a href="#home">~/niranjana</a>
+      </div>
+      <nav className="nav-link">
+        <a href="#interests">./interests</a>
+        <a href="#projects">./projects</a>
+        <a href="#contact">./contact</a>
       </nav>
-  );
+
+    </main>
+  )
 }
 
-export default Navbar;
+export default Navbar

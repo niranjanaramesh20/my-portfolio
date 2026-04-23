@@ -1,0 +1,42 @@
+ .proj-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    background: #252840;
+    border: 1px solid #3a3f6e;
+    padding: 1.5rem;
+  }
+
+.project-lang {
+    font-size: 0.65rem;
+    color: #ffcb6b;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.8rem;
+}
+
+.project-name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 0.6rem;
+  }
+  .project-desc {
+    font-size: 0.75rem;
+    color: #717cb4;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+  }
+  .project-link {
+    font-size: 0.7rem;
+    color: #c3e88d;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    transition: color 0.2s;
+  }

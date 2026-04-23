@@ -1,0 +1,10 @@
+ .footer {
+  display: flex;
+  justify-content: space-between;
+    border-top: 1px solid #3a3f6e;
+    padding: 0.5rem var(--page-gutter); 
+    font-size: 0.7rem;
+    color: #717cb4;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+  }

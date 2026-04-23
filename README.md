@@ -82,5 +82,3 @@ To adapt this portfolio for another person:
 ```bash
 npm run build
 ```
-
-The production output is generated in `dist/`.

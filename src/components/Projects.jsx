@@ -1,4 +1,5 @@
 import './Projects.css'
+import jwelesImage from '../../assets/jweles.png'
 
 function Projects() {
   return (
@@ -13,7 +14,6 @@ function Projects() {
       <div class="project-name">bare-metal OS</div>
       <p class="project-desc">A minimal bare-metal OS built from scratch. Boots directly on x86 hardware and prints “Hello, World” without relying on any operating system.</p>
       <div class="project-links">
-       
       </div>
     </div>
 
@@ -31,10 +31,21 @@ function Projects() {
     <div class="project-card">
 
       <div class="project-lang">Web </div>
-      <div class="project-name">Vrindhara</div>
-      <p class="project-desc">A responsive e-commerce website for jewelry built using HTML, CSS and JavaScript, featuring product listings and a clean grid based layout.</p>
+      <img src={jwelesImage} alt="Jweles project preview" class="project-image" />
+      <div class="project-name">Jweles</div>
+      <p class="project-desc">
+        A landing page for a jewelry brand, showcasing products with a clean and elegant design. Built using HTML and CSS, it features responsive layouts and visually appealing elements to attract customers.
+      </p>
       <div class="project-links">
         <a href="https://github.com/niranjanaramesh20/vrindhara" class="project-link">GitHub</a>
+        <a
+          href="https://niranjanaramesh20.github.io/Jweles/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="project-link"
+        >
+          Live
+        </a>
       </div>
     </div>
 </div>
